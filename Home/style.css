@@ -1,0 +1,49 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+
+body{
+    background: url("images/jungle background.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.nav-bar{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.nav-bar li{
+    display: inline-block;
+}
+
+.nav-bar li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+
+nav-bar li a:hover{
+    background: #fff;
+    color: #333;
+}
+
+.logo img{
+    width: 150px;
+    float: left;
+    padding-left: 5%;
+    padding-top: 2%;
+    filter: invert(1);
+}
